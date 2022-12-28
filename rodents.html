@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo" onclick="window.location.href='index.html'">
+            Мой четвероногий <span>Друг</span>
+        </div>
+        <div class="menu-items">
+            <a href="index.html" class="menu-item">Главная</a>
+            <a href="shop.html" class="menu-item active">Магазин</a>
+            <a href="blog.html" class="menu-item">Блог</a>
+            <a href="about.html" class="menu-item">О Нас</a>
+        </div>
+        <div class="menu-icons">
+            <img src="img/user.png">
+            <img src="img/cart.png">
+        </div>
+    </header>
+    <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
+        <ul class="menu__box">
+          <li><a class="menu__item" href="index.html">Главная</a></li>
+          <li><a class="menu__item" href="shop.html">Магазин</a></li>
+          <li><a class="menu__item" href="blog.html">Блог</a></li>
+          <li><a class="menu__item" href="about.html">О Нас</a></li>
+        </ul>
+    </div>
+    <main>
+        <div class="page">
+            <div class="container">
+                <div class="sort-form">
+                    <div class="filter">
+                        <img src="img/filter.png">
+                        <p>Фильтры</p>
+                    </div>
+                    <input type="text" placeholder="Поиск...">
+                    <div class="sort">
+                        <button id="btn" class="dropbtn">Тип питомца</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <ul>
+                            <li onClick="window.location.href='cats.html'">Котики</li>
+                            <li onClick="window.location.href='dogs.html'">Собачки</li>
+                            <li onClick="window.location.href='rodents.html'">Грызуны</li>
+                            <li onClick="window.location.href='fishes.html'">Рыбки</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+                <div class="shop-items">
+                    <div class="card" onClick="window.location.href='friend-robert.html'">
+                        <img src="img/robert.jpg">
+                        <div class="card-footer">
+                            Роберт
+                            <div class="price">
+                                700 ₽
+                                <div class="add-to-cart">
+                                    <img src="img/cart.png">
+                                    <p>В корзину</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" onClick="window.location.href='friend-kirya.html'">
+                        <img src="img/kirya.jpg">
+                        <div class="card-footer">
+                            Киря
+                            <div class="price">
+                                1 500 ₽
+                                <div class="add-to-cart">
+                                    <img src="img/cart.png">
+                                    <p>В корзину</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="info">
+                <div class="footer-title">
+                    Мой четвероногий <span>Друг</span>
+                </div>
+                <div class="info-text">
+                    <div class="footer-subtitle">
+                        Наша работа помогает сделать этот мир лучше, потому что домашние питомцы приносят радостные эмоции и ощущение полноты жизни. Выберите свой зоомагазин Мой четвероногий Друг и получайте удовольствие от покупок и общения с питомцем. Мы всегда рады видеть Вас!
+                    </div>
+                    <div class="contact">
+                        <div class="geo">
+                            <img src="img/geo.png">
+                            Воронеж, Московский Пр-т, 245
+                        </div>
+                        <div class="mail">
+                            <img src="img/mail.png">
+                            support@pet-shop.com
+                        </div>
+                        <div class="phone">
+                            <img src="img/phone.png">
+                            +7 (987)-654-32-10
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script src="shop.js"></script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О нас</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo" onclick="window.location.href='index.html'">
+            Мой четвероногий <span>Друг</span>
+        </div>
+        <div class="menu-items">
+            <a href="index.html" class="menu-item">Главная</a>
+            <a href="shop.html" class="menu-item">Магазин</a>
+            <a href="blog.html" class="menu-item">Блог</a>
+            <a href="" class="menu-item active">О Нас</a>
+        </div>
+        <div class="menu-icons">
+            <img src="img/user.png">
+            <img src="img/cart.png">
+        </div>
+    </header>
+    <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
+        <ul class="menu__box">
+          <li><a class="menu__item" href="index.html">Главная</a></li>
+          <li><a class="menu__item" href="shop.html">Магазин</a></li>
+          <li><a class="menu__item" href="blog.html">Блог</a></li>
+          <li><a class="menu__item" href="about.html">О Нас</a></li>
+        </ul>
+    </div>
+    <main>
+        <div class="container">
+            <form>
+                <div class="form-mail">
+                    <h1>Напишите нам письмо!</h1>
+                    <form>
+                    <p class="note"><span class="req">*</span> Поля со звездочкой обязательны для заполнения</p>
+                    <div class="form-row">
+                        <label>Ваше имя <span class="req">*</span></label>
+                        <input type="text" class="txt" placeholder="Стив Джобс" required>
+                    </div>
+
+                    <div class="form-row">
+                        <label>День рождения <span class="req">*</span></label>
+                        <input type="date" class="txt"  required>
+                    </div>
+                    
+                    <div class="form-row">
+                        <label>E-mail <span class="req">*</span></label>
+                        <input type="email" class="txt" placeholder="address@mail.ru" required>
+                    </div>
+                    
+                    <div class="form-row">
+                        <label>Телефон <span class="req">*</span></label>
+                        <input type="text" class="txt" placeholder="+7..." pattern="[+()0-9]*" required>
+                    </div>
+                    
+                    <div class="form-row">
+                        <label>Ваше сообщение <span class="req">*</span></label>
+                        <textarea class="txtarea" required></textarea>
+                    </div>
+                    
+                    <div class="form-row">
+                        <label>В какое время мы можем вам позвонить?<span class="req">*</span></label>
+                        <input type="time" class="txt" required>
+                    </div>
+                    
+                    <div class="center">
+                    <input type="submit" class="send-button" value="Отправить сообщение">
+                    <input type="reset" class="reset-button" value="Очистить">
+                    </div>
+                    </form>
+                    </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="info">
+                <div class="footer-title">
+                    Мой четвероногий <span>Друг</span>
+                </div>
+                <div class="info-text">
+                    <div class="footer-subtitle">
+                        Наша работа помогает сделать этот мир лучше, потому что домашние питомцы приносят радостные эмоции и ощущение полноты жизни. Выберите свой зоомагазин Мой четвероногий Друг и получайте удовольствие от покупок и общения с питомцем. Мы всегда рады видеть Вас!
+                    </div>
+                    <div class="contact">
+                        <div class="geo">
+                            <img src="img/geo.png">
+                            Воронеж, Московский Пр-т, 245
+                        </div>
+                        <div class="mail">
+                            <img src="img/mail.png">
+                            support@pet-shop.com
+                        </div>
+                        <div class="phone">
+                            <img src="img/phone.png">
+                            +7 (987)-654-32-10
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

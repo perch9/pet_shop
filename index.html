@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo" onclick="window.location.href='index.html'">
+            Мой четвероногий <span>Друг</span>
+        </div>
+        <div class="menu-items">
+            <a href="" class="menu-item active">Главная</a>
+            <a href="shop.html" class="menu-item">Магазин</a>
+            <a href="blog.html" class="menu-item">Блог</a>
+            <a href="about.html" class="menu-item">О Нас</a>
+        </div>
+        <div class="menu-icons">
+            <img src="img/user.png">
+            <img src="img/cart.png">
+        </div>
+    </header>
+    <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
+        <ul class="menu__box">
+          <li><a class="menu__item" href="index.html">Главная</a></li>
+          <li><a class="menu__item" href="shop.html">Магазин</a></li>
+          <li><a class="menu__item" href="blog.html">Блог</a></li>
+          <li><a class="menu__item" href="about.html">О Нас</a></li>
+        </ul>
+    </div>
+    <main>
+        <div class="container">
+            <div class="top-part">
+                <div class="left-part">
+                    Твой новый друг<br>с доставкой на дом 
+                    <p class="subtitle">Онлайн магазин домашних животных -<br>удобное решение, когда лень выходить из    дома</p>
+                    <a class="browse" href="shop.html">посмотреть друзей</a>
+                </div>
+                <div class="gallery">
+                    <img src="img/main.png">
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

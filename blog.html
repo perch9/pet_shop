@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блог</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo" onclick="window.location.href='index.html'">
+            Мой четвероногий <span>Друг</span>
+        </div>
+        <div class="menu-items">
+            <a href="index.html" class="menu-item">Главная</a>
+            <a href="shop.html" class="menu-item">Магазин</a>
+            <a href="" class="menu-item active">Блог</a>
+            <a href="about.html" class="menu-item">О Нас</a>
+        </div>
+        <div class="menu-icons">
+            <img src="img/user.png">
+            <img src="img/cart.png">
+        </div>
+    </header>
+    <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
+        <ul class="menu__box">
+          <li><a class="menu__item" href="index.html">Главная</a></li>
+          <li><a class="menu__item" href="shop.html">Магазин</a></li>
+          <li><a class="menu__item" href="blog.html">Блог</a></li>
+          <li><a class="menu__item" href="about.html">О Нас</a></li>
+        </ul>
+    </div>
+    <main>
+        <div class="container">
+            <div class="bord-posts">
+                <hr>
+                Последние публикации
+                <hr>
+            </div>
+            <div class="posts-holder">
+                <div class="post">
+                    <div class="post-header">
+                        <div class="post-profile">
+                            <img src="img/post-profile.png">
+                            Emily
+                        </div>
+                        11/12/2022
+                    </div>
+                    <img src="img/post-img.jpg">
+                    <div class="post-content">
+                        <div class="post-title">
+                            Чудик спит
+                        </div>
+                        <div class="post-subtitle">
+                            Посмотрите, какой красавец уснул!
+                        </div>
+                    </div>
+                    <div class="post-footer">
+                        <div class="post-interactions">
+                            <div class="post-likes">
+                                <img src="img/like.png">
+                                15
+                            </div>
+                            <div class="post-views">
+                                <img src="img/views.png">
+                                2001
+                            </div>
+                        </div>
+                        Читать далее
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post-header">
+                        <div class="post-profile">
+                            <img src="img/post-profile.png">
+                            Emily
+                        </div>
+                        10/12/2022
+                    </div>
+                    <img src="img/post-img2.jpg">
+                    <div class="post-content">
+                        <div class="post-title">
+                            Мой пухляш)
+                        </div>
+                        <div class="post-subtitle">
+                            Смотрите, какая наглая морда выросла)<br>люблю его очень сильно 😊
+                        </div>
+                    </div>
+                    <div class="post-footer">
+                        <div class="post-interactions">
+                            <div class="post-likes">
+                                <img src="img/like.png">
+                                15
+                            </div>
+                            <div class="post-views">
+                                <img src="img/views.png">
+                                2001
+                            </div>
+                        </div>
+                        Читать далее
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post-header">
+                        <div class="post-profile">
+                            <img src="img/post-profile.png">
+                            Emily
+                        </div>
+                        09/12/2022
+                    </div>
+                    <img src="img/post-img3.jpg">
+                    <div class="post-content">
+                        <div class="post-title">
+                            Давайте спасем котят!
+                        </div>
+                        <div class="post-subtitle">
+                            Нашла бедняг сегодня у себя в подвале, <br> пожалуйста, напишите те, кто готов помочь!
+                        </div>
+                    </div>
+                    <div class="post-footer">
+                        <div class="post-interactions">
+                            <div class="post-likes">
+                                <img src="img/like.png">
+                                15
+                            </div>
+                            <div class="post-views">
+                                <img src="img/views.png">
+                                2001
+                            </div>
+                        </div>
+                        Читать далее
+                    </div>
+                </div>
+            </div>
+            <div class="bord-posts">
+                <hr>
+                Комментарии
+                <hr>
+            </div>
+            <div class="comments-holder">
+                <div class="comment">
+                    <div class="profile-img">
+                        <img src="img/profile1.png">
+                    </div>
+                    <div class="comment-content">
+                        <p class="comment-name">
+                            Atena
+                        </p>
+                        <p class="comment-text">
+                            Какие у вас милые котики) очень рада находиться на этом сайте!😍
+                        </p>
+                        <div class="comment-stars">
+                            <img src="img/star.png">
+                            <img src="img/star.png">
+                            <img src="img/star.png">
+                            <img src="img/star.png">
+                            <img src="img/star.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="comment">
+                    <div class="profile-img">
+                        <img src="img/profile2.png">
+                    </div>
+                    <div class="comment-content">
+                        <p class="comment-name">
+                            pop Boy
+                        </p>
+                        <p class="comment-text">
+                            Какой кошмар... бедные коты, как я могу помочь?(
+                        </p>
+                        <div class="comment-stars">
+                            <img src="img/star.png">
+                            <img src="img/star.png">
+                            <img src="img/star.png">
+                            <img src="img/star.png">
+                            <img src="img/star.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="comment">
+                    <div class="profile-img">
+                        <img src="img/profile3.png">
+                    </div>
+                    <div class="comment-content">
+                        <p class="comment-name">
+                            Young Girl
+                        </p>
+                        <p class="comment-text">
+                            Очень люблю этот сайт! Он всегда поднимает мне настроение!!!!
+
+                        </p>
+                        <div class="comment-stars">
+                            <img src="img/star.png">
+                            <img src="img/star.png">
+                            <img src="img/star.png">
+                            <img src="img/star.png">
+                            <img src="img/star.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="info">
+                <div class="footer-title">
+                    Мой четвероногий <span>Друг</span>
+                </div>
+                <div class="info-text">
+                    <div class="footer-subtitle">
+                        Наша работа помогает сделать этот мир лучше, потому что домашние питомцы приносят радостные эмоции и ощущение полноты жизни. Выберите свой зоомагазин Мой четвероногий Друг и получайте удовольствие от покупок и общения с питомцем. Мы всегда рады видеть Вас!
+                    </div>
+                    <div class="contact">
+                        <div class="geo">
+                            <img src="img/geo.png">
+                            Воронеж, Московский Пр-т, 245
+                        </div>
+                        <div class="mail">
+                            <img src="img/mail.png">
+                            support@pet-shop.com
+                        </div>
+                        <div class="phone">
+                            <img src="img/phone.png">
+                            +7 (987)-654-32-10
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
